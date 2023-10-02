@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* VARIABLES */
+  body {
+    --blue: #93b5c9;
+    --wine: #ab2849;
+    position: relative;
+  }
+  nav {
+    height: 15vh;
+    background: var(--blue);
+  }
+  header{
+    height: 30vh;
+    background: var(--wine);
+  }
+  section > * {
+    height: 10vh;
+    margin: 1em 0;
+    background: var(--wine);
+    width: 100vw;
+}
+  .container {
+
+    background: none;
+}
+  .container > *:first-child{
+    background: var(--blue);
+    height: 100%;
+    width: 45%;
+    float: left;
+  }
+  .container > *:first-child{
+    background: var(--wine);
+    height: 100%;
+    width: 45%;
+    float: right;
+  }
